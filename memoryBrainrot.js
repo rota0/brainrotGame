@@ -63,7 +63,7 @@ function controllaCarte(){
         if(audio != false){
             audio.pause();
         }
-        audio = new Audio('sound/' + matrice[riga][colonna] + '.mp3');
+        audio = new Audio('sound/' + matrice[riga][colonna] + '.MP3');
         audio.play();
         for(let i = 0; i<2; i++){
             carte[0].setAttribute('class', 'trovate');
